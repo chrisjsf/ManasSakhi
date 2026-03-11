@@ -1,0 +1,38 @@
+# --- OS & IDE ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Environment Variables (Security) ---
+.env
+.env.local
+.env.production
+
+# --- App Folder (React Native / Expo) ---
+app/node_modules/
+app/.expo/
+app/.expo-shared/
+app/dist/
+app/build/
+app/*.jks
+app/*.keystore
+app/google-services.json
+app/GoogleService-Info.plist
+
+# --- Backend Folder (Python / Node) ---
+backend/__pycache__/
+backend/*.py[cod]
+backend/venv/
+backend/env/
+backend/venv/
+backend/node_modules/
+backend/db.sqlite3
+backend/*.log
+
+# --- General ---
+*.log
+tmp/
+temp/
